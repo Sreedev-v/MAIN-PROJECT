@@ -30,7 +30,7 @@
     <link href="../static/css/style.css" rel="stylesheet">
 </head>
 
-<div>
+
 
 
     <!-- Navbar Start -->
@@ -45,7 +45,7 @@
             <div class="navbar-nav ms-auto py-0 me-n3">
                 <a href="/" class="nav-item nav-link active">Home</a>
                 <a href="/#p" class="nav-item nav-link">Predict</a>
-                <a href="/graph#p" class="nav-item nav-link">Accuracy</a>
+                <a href="/graph#g" class="nav-item nav-link">Accuracy</a>
 
                 
             </div>
@@ -97,6 +97,7 @@
             <h1 class="display-5 mb-0">Prediction</h1>
             <hr class="w-25 mx-auto bg-primary">
             <div align="center">
+
                 <form id="form1" name="form1" method="post" action="/predict#p">
   <table border="1" class="table">
     <tr>
@@ -153,9 +154,29 @@
 </form>
             </div>
         </div>
-      
-           
-       
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+           <div  id="g" align="center">
+
+                       {% block body %}
+                {% endblock %}
+           </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </div>
     <!-- Services End -->
 

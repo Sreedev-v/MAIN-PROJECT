@@ -10,7 +10,7 @@ def main():
 
 @app.route("/graph",methods=['post','get'])
 def graph():
-    return render_template("geaphview.html")
+    return render_template("geaphview1.html")
 
 @app.route("/predict",methods=['post'])
 def predict():
